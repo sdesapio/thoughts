@@ -1,0 +1,38 @@
+nulls gpt 0 n 72
+
+== GPT alone
+N PASS 3 PARTIAL 5 FAIL 16
+S PASS 5 PARTIAL 9 FAIL 10
+T PASS 12 PARTIAL 8 FAIL 4
+ item 23: PASS 1/0/3 FAIL 1/3/0
+ item 24: PASS 1/3/3 FAIL 2/0/0
+ item 25: PASS 0/0/0 FAIL 3/1/3
+ item 1: PASS 0/0/1 FAIL 3/3/1
+ item 2: PASS 0/1/1 FAIL 3/0/0
+ item 4: PASS 0/0/0 FAIL 0/2/0
+ item 5: PASS 1/0/3 FAIL 1/0/0
+ item 6: PASS 0/1/1 FAIL 3/1/0
+ T vs S: PASS passes 12 vs 5, FAILs 4 vs 10, worse items 0
+ T vs N: PASS passes 12 vs 3, FAILs 4 vs 16, worse items 0
+ N passed >=2/3 items: []
+
+== Both agree (PASS/FAIL only when both say it; else PARTIAL)
+N PASS 0 PARTIAL 13 FAIL 11
+S PASS 3 PARTIAL 14 FAIL 7
+T PASS 10 PARTIAL 11 FAIL 3
+ item 23: PASS 0/0/2 FAIL 1/3/0
+ item 24: PASS 0/3/3 FAIL 2/0/0
+ item 25: PASS 0/0/0 FAIL 0/0/3
+ item 1: PASS 0/0/1 FAIL 1/2/0
+ item 2: PASS 0/0/0 FAIL 3/0/0
+ item 4: PASS 0/0/0 FAIL 0/1/0
+ item 5: PASS 0/0/3 FAIL 1/0/0
+ item 6: PASS 0/0/1 FAIL 3/1/0
+ T vs S: PASS passes 10 vs 3, FAILs 3 vs 7, worse items 0
+ T vs N: PASS passes 10 vs 0, FAILs 3 vs 11, worse items 0
+ N passed >=2/3 items: []
+
+agreement 47 / 72 Counter({'PARTIAL->FAIL': 8, 'FAIL->PARTIAL': 7, 'FAIL->PASS': 4, 'PARTIAL->PASS': 3, 'PASS->PARTIAL': 2, 'PASS->FAIL': 1})
+N agree 15 /24
+S agree 14 /24
+T agree 18 /24

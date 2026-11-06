@@ -1,0 +1,1298 @@
+{
+ "P-d100105a": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-64384894": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-19eb4b2f": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-5fcdd6bd": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-284da601": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-3596ba35": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e46b7ea5": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-6a77231a": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-c0d69af1": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-3bb532c7": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-a5a82d41": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-743e31c4": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-1130c6ba": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-cb4838bc": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-9881117b": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-9133b302": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-a7945a01": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-6681d136": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-9c0c6d83": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-4095a803": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-45ac8567": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-88daefb3": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-cfc22a9e": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-e3cf8cf3": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-f8a74503": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-ec311df4": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e1640a61": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-50783342": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e6aef119": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-7ef784ec": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-3fe51488": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e9a6ee8d": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-bb13b91d": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-955996d2": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-1d281ffd": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-666da5a3": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-4aa2ba0d": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-2b542962": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-a0bf0cbd": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-7c581dc9": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-d7f6cbca": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-ec4399ca": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-5c332317": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-6c4c15c5": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-77d9ea16": {
+  "item": "23",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-38db7943": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-7c0782a4": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-36dbb014": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-fdf62e22": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-ebb63689": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-b10dd601": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-7c63ed4c": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-7677e44b": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-acfdc110": {
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-267c8c02": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-5fcfd8ab": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-5633a5dd": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-f7b0ea83": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-296d2b6c": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-151cdf8a": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-7885c6f7": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-275adb47": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-03999162": {
+  "item": "24",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-86acd3b6": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-07c14a9a": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-3751b7d2": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-33b1533e": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-fffc8c44": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-a94bf9bb": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-91844922": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-9ab78a7a": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-4f2b1fe2": {
+  "item": "24",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2892d360": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c61d5ed0": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-5baa76c4": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-f5b9e096": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-f3be11fd": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-9fddc787": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-bc92351c": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-268595e4": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e19832d0": {
+  "item": "25",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c8d0a075": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-ae5508f1": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2f889906": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-1d4f8933": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-a83a07a2": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-da2fc4ce": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-7c091f09": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c17f0732": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-bda5b60c": {
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-e8b4dad7": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-8a60e9f2": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c7c24e40": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2a18fac0": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-3670b66c": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-6dc2f9c2": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-833095ad": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-2a3f28ee": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-fe85bedd": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-0ce65d83": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-1e42d6bc": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-4cdab22f": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-df6f7fd8": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-78faf31c": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-0d550386": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-a8296d39": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-d64deda0": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-12b5c41a": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-9120c5e2": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-7c62f72a": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-b7070361": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-921338c6": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-b2535a6e": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-11e8c5aa": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2cfc89a1": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-ac621edf": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-3291612c": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-c4d9fa0d": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-8dd6c786": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-7d579523": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-287c263c": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-48cc90de": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-c1487b55": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-01cada7b": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-ac1c26c5": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-eeaf0923": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-ace875ac": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-b36ef2a6": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-a1aa07dd": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-6db98bd5": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-d1a74176": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-854785e6": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c39c6936": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-971ff2c7": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-abb62ea4": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-e429217d": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-456a35a5": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-9ee0d9b3": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2f6e4846": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-efab344e": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-b90530f2": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-e397eb03": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-283581e4": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-a27f9916": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ }
+}

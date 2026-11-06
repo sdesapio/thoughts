@@ -1,0 +1,144 @@
+item 1 half 0 gemini-4-argon-medium run 1
+item 1 half 1 gemini-4-argon-medium run 1
+item 1 half 0 gemini-4-argon-medium run 2
+item 1 half 1 gemini-4-argon-medium run 2
+item 1 half 0 gemini-4-argon-medium run 3
+item 1 half 1 gemini-4-argon-medium run 3
+item 1 half 0 gpt-5.6-sol-high run 1
+item 1 half 1 gpt-5.6-sol-high run 1
+  retry: rc=0 tool=True empty=False
+item 1 half 0 gpt-5.6-sol-high run 2
+  retry: rc=0 tool=True empty=False
+item 1 half 1 gpt-5.6-sol-high run 2
+  retry: rc=0 tool=True empty=False
+item 1 half 0 gpt-5.6-sol-high run 3
+item 1 half 1 gpt-5.6-sol-high run 3
+  retry: rc=0 tool=True empty=False
+item 2 half 0 gemini-4-argon-medium run 1
+item 2 half 1 gemini-4-argon-medium run 1
+item 2 half 0 gemini-4-argon-medium run 2
+item 2 half 1 gemini-4-argon-medium run 2
+item 2 half 0 gemini-4-argon-medium run 3
+item 2 half 1 gemini-4-argon-medium run 3
+item 2 half 0 gpt-5.6-sol-high run 1
+item 2 half 1 gpt-5.6-sol-high run 1
+item 2 half 0 gpt-5.6-sol-high run 2
+item 2 half 1 gpt-5.6-sol-high run 2
+item 2 half 0 gpt-5.6-sol-high run 3
+item 2 half 1 gpt-5.6-sol-high run 3
+item 4 half 0 gemini-4-argon-medium run 1
+item 4 half 1 gemini-4-argon-medium run 1
+item 4 half 0 gemini-4-argon-medium run 2
+item 4 half 1 gemini-4-argon-medium run 2
+item 4 half 0 gemini-4-argon-medium run 3
+item 4 half 1 gemini-4-argon-medium run 3
+item 4 half 0 gpt-5.6-sol-high run 1
+  retry: rc=0 tool=True empty=False
+item 4 half 1 gpt-5.6-sol-high run 1
+  retry: rc=0 tool=True empty=False
+  retry: rc=0 tool=True empty=False
+item 4 half 0 gpt-5.6-sol-high run 2
+  retry: rc=0 tool=True empty=False
+item 4 half 1 gpt-5.6-sol-high run 2
+  retry: rc=0 tool=True empty=False
+  retry: rc=0 tool=True empty=False
+item 4 half 0 gpt-5.6-sol-high run 3
+  retry: rc=0 tool=True empty=False
+  retry: rc=0 tool=True empty=False
+item 4 half 1 gpt-5.6-sol-high run 3
+  retry: rc=0 tool=True empty=False
+  retry: rc=0 tool=True empty=False
+item 5 half 0 gemini-4-argon-medium run 1
+item 5 half 1 gemini-4-argon-medium run 1
+item 5 half 0 gemini-4-argon-medium run 2
+item 5 half 1 gemini-4-argon-medium run 2
+item 5 half 0 gemini-4-argon-medium run 3
+item 5 half 1 gemini-4-argon-medium run 3
+item 5 half 0 gpt-5.6-sol-high run 1
+item 5 half 1 gpt-5.6-sol-high run 1
+item 5 half 0 gpt-5.6-sol-high run 2
+item 5 half 1 gpt-5.6-sol-high run 2
+item 5 half 0 gpt-5.6-sol-high run 3
+item 5 half 1 gpt-5.6-sol-high run 3
+item 6 half 0 gemini-4-argon-medium run 1
+item 6 half 1 gemini-4-argon-medium run 1
+item 6 half 0 gemini-4-argon-medium run 2
+item 6 half 1 gemini-4-argon-medium run 2
+item 6 half 0 gemini-4-argon-medium run 3
+item 6 half 1 gemini-4-argon-medium run 3
+item 6 half 0 gpt-5.6-sol-high run 1
+item 6 half 1 gpt-5.6-sol-high run 1
+item 6 half 0 gpt-5.6-sol-high run 2
+item 6 half 1 gpt-5.6-sol-high run 2
+item 6 half 0 gpt-5.6-sol-high run 3
+item 6 half 1 gpt-5.6-sol-high run 3
+grading u1-c33c69fe
+grading u1-f1846d8c
+grading u1-acad2442
+grading u1-83b45692
+grading u1-4fd3ff85
+grading u1-1cba4b2a
+grading u2-76bcc2ba
+grading u2-dc8ac15c
+grading u2-a0dd0119
+grading u2-862667ce
+grading u2-af30f984
+grading u2-14db2726
+grading u4-6a5f3d61
+grading u4-53d16fc2
+grading u4-3b47df9e
+grading u4-817b255b
+grading u4-05328a11
+grading u4-698adb51
+grading u5-3745395f
+grading u5-d8eaea25
+grading u5-2deee19c
+grading u5-289778e5
+grading u5-69f3aab6
+grading u5-aadcdb27
+grading u6-67f0d09f
+grading u6-3d217e45
+grading u6-9bf66b57
+grading u6-ed8672d4
+grading u6-53d86ca6
+grading u6-a12773c8
+# No-prompt screening, 2026-11-03
+
+Models: gemini-4-argon-medium, gpt-5.6-sol-high. Grader: claude-sonnet-5-thinking-high. Condition N only, `--mode ask`, cwd ~/_thoughts-screen-cwd. 3 runs per half.
+
+Keep rule: kept for a model if >=2 of 3 runs are not PASS; dropped only if both models PASS >=2 of 3.
+
+| Item | Model | Run grades | Non-PASS | Kept for model | Mean words/half (turn 1) |
+|---|---|---|---|---|---|
+| 1 | gemini-4-argon-medium | PASS / PASS / PASS | 0/3 | no | 600 |
+| 1 | gpt-5.6-sol-high | PARTIAL / PASS / PARTIAL | 2/3 | yes | 141 |
+| 2 | gemini-4-argon-medium | FAIL / FAIL / FAIL | 3/3 | yes | 140 |
+| 2 | gpt-5.6-sol-high | PARTIAL / FAIL / PARTIAL | 3/3 | yes | 41 |
+| 4 | gemini-4-argon-medium | FAIL / FAIL / FAIL | 3/3 | yes | 565 |
+| 4 | gpt-5.6-sol-high | PASS / FAIL / PARTIAL | 2/3 | yes | 169 |
+| 5 | gemini-4-argon-medium | FAIL / FAIL / FAIL | 3/3 | yes | 427 |
+| 5 | gpt-5.6-sol-high | PASS / FAIL / PASS | 1/3 | no | 74 |
+| 6 | gemini-4-argon-medium | FAIL / FAIL / FAIL | 3/3 | yes | 126 |
+| 6 | gpt-5.6-sol-high | PARTIAL / FAIL / FAIL | 3/3 | yes | 48 |
+
+| Item | Pilot decision |
+|---|---|
+| 1 | KEEP (split: kept for one model only) |
+| 2 | KEEP |
+| 4 | KEEP |
+| 5 | KEEP (split: kept for one model only) |
+| 6 | KEEP |
+
+## Calls
+- Total CLI calls logged (incl. retries, correction checks, grading): 136
+- Answer calls by model: gemini-4-argon-medium: 42, gpt-5.6-sol-high: 52
+- Grader calls: 42
+- Calls with a tool call: 14; invalid turns after retry: 4
+- Item 5 correction checks: 12 CORRECTED, 0 AGREED
+- Prompt echo mismatches: 0
+
+## Tokens
+- Reported by CLI JSON: see usage.json
+
+## Caveats
+- Items were selected from Scott's own transcripts, not written blind. Screening answers are not reused as pilot data.

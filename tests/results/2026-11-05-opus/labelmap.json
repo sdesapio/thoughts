@@ -1,0 +1,650 @@
+{
+ "P-bbab9c4c": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-55a1d32b": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-869d80da": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-e7675f52": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-2c1cddb5": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-d838f5ce": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-a9aefa55": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-cfd65be7": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-c97b04f9": {
+  "item": "1",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-d4144333": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-b78eaf20": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-63f1479e": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-0c3f5bab": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-d315caea": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-1cf7d60d": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-029e5b56": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-1c662522": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-80d380ff": {
+  "item": "2",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-0ea7731c": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-f47e75b1": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-e0014d94": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-c6027f15": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-7f7af99d": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-b169f3e4": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-276c84b7": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-a19b6eb8": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-3ef71e90": {
+  "item": "23",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-898c7b42": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-7d6cdd37": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-1bb728c9": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-3e3029e6": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-d3156eba": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-49956956": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-cae4c1a5": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-01ecfe26": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-7bc1410f": {
+  "item": "24",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-a966a20e": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-9b06b056": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-2c29279a": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-a9f354e9": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-1417942a": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-fa882ca8": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-d9cbe59e": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-fb233759": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-2e05672f": {
+  "item": "25",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-f79fb7b1": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-d04affdf": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-086f41fc": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-e12aaa01": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-e1fa597a": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-4423a0cc": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-d489d64c": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-d83b52c3": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-ae80b623": {
+  "item": "4",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-45a3ba84": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-44e323a8": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-8557fd47": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-13556a72": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-e4367927": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-fe2f63c0": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-e1cbfd38": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-fe7368ef": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-c55bf949": {
+  "item": "5",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-0ec87112": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-de769923": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-585c6f09": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-b0865a45": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-e5703744": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-6801fc5f": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-ab845631": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-0eadd0ca": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-37d38464": {
+  "item": "6",
+  "model": "claude-4.6-opus-high-thinking",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ }
+}

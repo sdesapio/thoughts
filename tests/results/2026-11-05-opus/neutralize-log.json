@@ -1,0 +1,200 @@
+{
+ "P-bbab9c4c": [],
+ "P-55a1d32b": [],
+ "P-869d80da": [],
+ "P-e7675f52": [],
+ "P-2c1cddb5": [],
+ "P-d838f5ce": [],
+ "P-a9aefa55": [],
+ "P-cfd65be7": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-c97b04f9": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-d4144333": [],
+ "P-b78eaf20": [],
+ "P-63f1479e": [],
+ "P-0c3f5bab": [],
+ "P-d315caea": [],
+ "P-1cf7d60d": [],
+ "P-029e5b56": [
+  {
+   "p": "\\bMethod ([0-9])",
+   "n": 4
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-1c662522": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bMethod ([0-9])",
+   "n": 2
+  }
+ ],
+ "P-80d380ff": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bMethod ([0-9])",
+   "n": 2
+  }
+ ],
+ "P-0ea7731c": [],
+ "P-f47e75b1": [],
+ "P-e0014d94": [],
+ "P-c6027f15": [],
+ "P-7f7af99d": [],
+ "P-b169f3e4": [],
+ "P-276c84b7": [],
+ "P-a19b6eb8": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-3ef71e90": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-898c7b42": [],
+ "P-7d6cdd37": [],
+ "P-1bb728c9": [],
+ "P-3e3029e6": [],
+ "P-d3156eba": [],
+ "P-49956956": [],
+ "P-cae4c1a5": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-01ecfe26": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-7bc1410f": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-a966a20e": [],
+ "P-9b06b056": [],
+ "P-2c29279a": [],
+ "P-a9f354e9": [],
+ "P-1417942a": [],
+ "P-fa882ca8": [],
+ "P-d9cbe59e": [],
+ "P-fb233759": [],
+ "P-2e05672f": [],
+ "P-f79fb7b1": [],
+ "P-d04affdf": [],
+ "P-086f41fc": [],
+ "P-e12aaa01": [],
+ "P-e1fa597a": [],
+ "P-4423a0cc": [],
+ "P-d489d64c": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-d83b52c3": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-ae80b623": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-45a3ba84": [],
+ "P-44e323a8": [],
+ "P-8557fd47": [],
+ "P-13556a72": [],
+ "P-e4367927": [],
+ "P-fe2f63c0": [],
+ "P-e1cbfd38": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-fe7368ef": [
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-c55bf949": [
+  {
+   "p": "\\bCouncil\\b",
+   "n": 1
+  },
+  {
+   "p": "\\bcouncil\\b(?! communists)",
+   "n": 1
+  }
+ ],
+ "P-0ec87112": [],
+ "P-de769923": [],
+ "P-585c6f09": [],
+ "P-b0865a45": [],
+ "P-e5703744": [],
+ "P-6801fc5f": [],
+ "P-ab845631": [
+  {
+   "p": "\\bMethod ([0-9])",
+   "n": 7
+  }
+ ],
+ "P-0eadd0ca": [
+  {
+   "p": "\\bthe Method\\b",
+   "n": 1
+  },
+  {
+   "p": "\\bThoughts (skill|framework)\\b",
+   "n": 1
+  }
+ ],
+ "P-37d38464": []
+}

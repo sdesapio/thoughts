@@ -1,0 +1,212 @@
+{
+ "u1-c33c69fe": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u1-f1846d8c": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u1-acad2442": {
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u1-83b45692": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u1-4fd3ff85": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u1-1cba4b2a": {
+  "item": "1",
+  "model": "gpt-5.6-sol-high",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u2-76bcc2ba": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u2-dc8ac15c": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "run": 2,
+  "A": 0,
+  "B": 1
+ },
+ "u2-a0dd0119": {
+  "item": "2",
+  "model": "gemini-4-argon-medium",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u2-862667ce": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u2-af30f984": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "run": 2,
+  "A": 0,
+  "B": 1
+ },
+ "u2-14db2726": {
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u4-6a5f3d61": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "run": 1,
+  "A": 0,
+  "B": 1
+ },
+ "u4-53d16fc2": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u4-3b47df9e": {
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "run": 3,
+  "A": 0,
+  "B": 1
+ },
+ "u4-817b255b": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "run": 1,
+  "A": 0,
+  "B": 1
+ },
+ "u4-05328a11": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "run": 2,
+  "A": 0,
+  "B": 1
+ },
+ "u4-698adb51": {
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "run": 3,
+  "A": 0,
+  "B": 1
+ },
+ "u5-3745395f": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "run": 1,
+  "A": 0,
+  "B": 1
+ },
+ "u5-d8eaea25": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u5-2deee19c": {
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u5-289778e5": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u5-69f3aab6": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u5-aadcdb27": {
+  "item": "5",
+  "model": "gpt-5.6-sol-high",
+  "run": 3,
+  "A": 1,
+  "B": 0
+ },
+ "u6-67f0d09f": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "run": 1,
+  "A": 0,
+  "B": 1
+ },
+ "u6-3d217e45": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u6-9bf66b57": {
+  "item": "6",
+  "model": "gemini-4-argon-medium",
+  "run": 3,
+  "A": 0,
+  "B": 1
+ },
+ "u6-ed8672d4": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "run": 1,
+  "A": 1,
+  "B": 0
+ },
+ "u6-53d86ca6": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "run": 2,
+  "A": 1,
+  "B": 0
+ },
+ "u6-a12773c8": {
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "run": 3,
+  "A": 0,
+  "B": 1
+ }
+}

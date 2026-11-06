@@ -1,0 +1,650 @@
+{
+ "P-b2706039": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-0be09550": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-f691c216": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-57d945dc": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2a212ad9": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-827abaa3": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-de117d72": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-1095b759": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-314ad356": {
+  "item": "1",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-79531ac4": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-ef621d53": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-2207cb5e": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-b76bb584": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-0286973b": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-420c83ee": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-080cb9ed": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-58b2c842": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-82c27c7d": {
+  "item": "2",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-eb4c4733": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-61e5cde6": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-68161c2c": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-811f822b": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-8927732f": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-ef92eec0": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-68a179b4": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-234798df": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-13b726e1": {
+  "item": "23",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-cbd54d17": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-ac29516c": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-384a4da4": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-6bb8265a": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-16e556e8": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-7fea951a": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-c4415593": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-8623cdf5": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-77d268ca": {
+  "item": "24",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-6edd5a34": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-fc2a14c4": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-f347ac3b": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-6ea34ba7": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-70f94cb4": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-9f3f3665": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-5a877e1a": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-5c5d5edc": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-543327a5": {
+  "item": "25",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-525b052b": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-617d3635": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-589b0a1f": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-c142fb46": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": true
+ },
+ "P-5109c77b": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-62320e5f": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-7ba53b5a": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-47689e47": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-3afb9768": {
+  "item": "4",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-eec213f9": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-9a477e7d": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-d3bc26bc": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-65438f1b": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-f752271b": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-59f7741f": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-adf9766f": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-2ec4340e": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-86b3fde0": {
+  "item": "5",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-600beb39": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-d68e052d": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-0bf279e6": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-f68bd593": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 1,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "P-de8a60d1": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-31e75c1e": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-d8b6c60e": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": true
+ },
+ "P-44be8eca": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "P-c03cc450": {
+  "item": "6",
+  "model": "claude-sonnet-5-thinking-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": true
+ }
+}

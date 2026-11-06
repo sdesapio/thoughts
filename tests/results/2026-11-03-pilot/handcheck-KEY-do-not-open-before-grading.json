@@ -1,0 +1,102 @@
+{
+ "unit-01": {
+  "packet": "P-7c62f72a",
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "unit-02": {
+  "packet": "P-9ee0d9b3",
+  "item": "6",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-03": {
+  "packet": "P-666da5a3",
+  "item": "2",
+  "model": "gpt-5.6-sol-high",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-04": {
+  "packet": "P-7c0782a4",
+  "item": "23",
+  "model": "gpt-5.6-sol-high",
+  "cond": "N",
+  "run": 2,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-05": {
+  "packet": "P-64384894",
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "unit-06": {
+  "packet": "P-3596ba35",
+  "item": "1",
+  "model": "gemini-4-argon-medium",
+  "cond": "S",
+  "run": 3,
+  "A": 1,
+  "B": 0,
+  "second": false
+ },
+ "unit-07": {
+  "packet": "P-9120c5e2",
+  "item": "5",
+  "model": "gemini-4-argon-medium",
+  "cond": "N",
+  "run": 1,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-08": {
+  "packet": "P-da2fc4ce",
+  "item": "25",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-09": {
+  "packet": "P-fe85bedd",
+  "item": "4",
+  "model": "gemini-4-argon-medium",
+  "cond": "T",
+  "run": 3,
+  "A": 0,
+  "B": 1,
+  "second": false
+ },
+ "unit-10": {
+  "packet": "P-78faf31c",
+  "item": "4",
+  "model": "gpt-5.6-sol-high",
+  "cond": "S",
+  "run": 2,
+  "A": 1,
+  "B": 0,
+  "second": false
+ }
+}

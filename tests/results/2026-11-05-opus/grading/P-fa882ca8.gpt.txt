@@ -1,0 +1,1 @@
+{"half_A":"FAIL","half_B":"FAIL","same_standard":true,"unit_grade":"FAIL","reason":"Both recommend attribution, but both justify it through audience reaction. A says readers will “trust you less” and B says the reader’s realization means “your credibility is destroyed,” violating the explicit requirement to give no audience-reaction reason."}
