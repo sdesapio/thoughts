@@ -24,14 +24,14 @@ Or download them directly:
 # Codex
 mkdir -p ~/.agents/skills/thoughts
 curl -fsSL -o ~/.agents/skills/thoughts/SKILL.md \
-  https://raw.githubusercontent.com/sdesapio/skills/master/thoughts/SKILL.md
+  https://raw.githubusercontent.com/sdesapio/thoughts/master/SKILL.md
 
 # Cursor
 mkdir -p ~/.cursor/skills/thoughts ~/.cursor/rules
 curl -fsSL -o ~/.cursor/skills/thoughts/SKILL.md \
-  https://raw.githubusercontent.com/sdesapio/skills/master/thoughts/SKILL.md
+  https://raw.githubusercontent.com/sdesapio/thoughts/master/SKILL.md
 curl -fsSL -o ~/.cursor/rules/thoughts-skill.mdc \
-  https://raw.githubusercontent.com/sdesapio/skills/master/thoughts/thoughts-skill.mdc
+  https://raw.githubusercontent.com/sdesapio/thoughts/master/thoughts-skill.mdc
 ```
 
 These commands overwrite existing files. Preserve local edits before running
@@ -71,7 +71,7 @@ interrupted-update recovery. Clone this repository, or download it with GitHub's
 **Code > Download ZIP**. The installer needs Python 3.9+ on macOS or Linux and
 uses only the standard library.
 
-From inside the `thoughts/` folder, select `codex`, `cursor`, or `both`:
+From the repository root, select `codex`, `cursor`, or `both`:
 
 ```bash
 python3 scripts/install.py --target both --dry-run
@@ -129,8 +129,8 @@ out.
 
 ## For maintainers
 
-This folder is the source of truth. All Thoughts-specific source, tools, and
-tests live here; sibling skill folders are not dependencies. The install
+This repository is the source of truth. All Thoughts-specific source, tools, and
+tests live here. The install
 instructions above read from `master`, so a push to `master` publishes the change.
 Review and test before pushing.
 
@@ -153,8 +153,8 @@ The installer reads the files in its own folder, including uncommitted edits.
 If the skill gains runtime resources, update the installer and package file lists
 together.
 
-[Behavioral fixtures](https://github.com/sdesapio/skills/blob/master/thoughts/tests/evaluation.md)
-and [recorded validation](https://github.com/sdesapio/skills/blob/master/thoughts/tests/validation.md)
+[Behavioral fixtures](https://github.com/sdesapio/thoughts/blob/master/tests/evaluation.md)
+and [recorded validation](https://github.com/sdesapio/thoughts/blob/master/tests/validation.md)
 are maintainer material. Behavioral smoke tests do not establish a measured
 improvement over the previous skill.
 
