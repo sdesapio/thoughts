@@ -1,9 +1,15 @@
 # Thoughts
 
-Examine ideas with integrity, evidence, and valid reasoning. Conclusions must
-follow from evidence and valid inference.
+Instructions that push AI models toward the truth: say what the evidence
+supports, hold a well-supported position under pushback, and flag claims they
+can't back up. They're for anyone who asks an AI questions that matter, not just
+developers.
 
-The skill rests on Aristotle's work and the three laws of thought: identity,
+The story behind them and the test results, failures included, are in
+[Is your AI lying to you?](https://scottdesapio.com/thoughts). Every question,
+answer, and grade is in [tests/](tests/), with a script to rerun it.
+
+The method rests on Aristotle's work and the three laws of thought: identity,
 noncontradiction, and excluded middle.
 
 ## Install
@@ -39,6 +45,14 @@ them. If you already use the managed installer, use it for updates as well so
 its checksums and backups remain consistent. Start a fresh chat after
 installation so the host can load the skill. Keep the [MIT license](LICENSE) with
 any copy you redistribute.
+
+**Other tools.** Thoughts is one Markdown file. In Claude Code, copy `SKILL.md`
+into `~/.claude/skills/thoughts/`. In another agent that supports skills, put it
+wherever that tool loads them from. In a chat app, paste or attach `SKILL.md` at
+the start of the conversation. That matches how it was tested, since the test
+gave models the instructions directly rather than installing them. Council
+review needs an agent that can run subagents, so in a plain chat you get the
+Method alone.
 
 ## Use
 
