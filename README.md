@@ -14,6 +14,48 @@ noncontradiction, and excluded middle.
 
 ## Install
 
+### Claude
+
+In **Claude Code**, install the plugin:
+
+```
+/plugin install thoughts --marketplace sdesapio/thoughts
+```
+
+That one-step form needs Claude Code 2.1.275 or later. On older versions, run
+`/plugin marketplace add sdesapio/thoughts`, then
+`/plugin install thoughts@sdesapio`.
+
+The plugin contains the skill and one small hook. Claude normally decides from a
+skill's description whether to load it, and it can miss a "Thoughts?" at the end
+of a long message. The hook closes that gap: when a message you send contains
+"Thoughts?", it adds a one-line reminder to load the skill. It runs a short
+shell script, [`thoughts-trigger.sh`](plugin/scripts/thoughts-trigger.sh), on
+your machine. The script reads the message, prints the reminder or nothing, and
+does not write files or use the network.
+
+To install the skill without the plugin or the hook, copy `SKILL.md` into
+`~/.claude/skills/thoughts/`:
+
+```bash
+mkdir -p ~/.claude/skills/thoughts
+curl -fsSL -o ~/.claude/skills/thoughts/SKILL.md \
+  https://raw.githubusercontent.com/sdesapio/thoughts/master/SKILL.md
+```
+
+Installed this way, `/thoughts` always invokes the skill, and a bare "Thoughts?"
+depends on Claude choosing to load it. To make that more reliable, add this line
+to `~/.claude/CLAUDE.md`:
+
+```
+When I say "Thoughts?", ask for your opinion, or challenge your reasoning, load the thoughts skill before answering.
+```
+
+In the **Claude apps**, paste or attach `SKILL.md` at the start of the
+conversation.
+
+### Codex and Cursor
+
 Installation is two files: [`SKILL.md`](SKILL.md) and the companion Cursor rule
 [`thoughts-skill.mdc`](thoughts-skill.mdc). No Git, Python, or installer is
 needed.
@@ -46,8 +88,9 @@ its checksums and backups remain consistent. Start a fresh chat after
 installation so the host can load the skill. Keep the [MIT license](LICENSE) with
 any copy you redistribute.
 
-**Other tools.** Thoughts is one Markdown file. In Claude Code, copy `SKILL.md`
-into `~/.claude/skills/thoughts/`. In another agent that supports skills, put it
+### Other tools
+
+Thoughts is one Markdown file. In another agent that supports skills, put it
 wherever that tool loads them from. In a chat app, paste or attach `SKILL.md` at
 the start of the conversation. That matches how it was tested, since the test
 gave models the instructions directly rather than installing them. Council
@@ -59,6 +102,12 @@ Method alone.
 **"Thoughts?"**, a direct skill invocation, opinions, and reasoning challenges
 use the full Method in the current conversation by default. Integrity, evidence,
 and the foundational logical laws apply in every mode.
+
+Whether a bare "Thoughts?" loads the skill depends on the host. The Claude Code
+plugin's hook and the Cursor rule route it for you. Elsewhere the model decides
+from the skill's description and can miss it, so invoke the skill by name when
+it matters: `/thoughts:thoughts` with the Claude Code plugin, `/thoughts` with
+the skill copied into `~/.claude/skills/`.
 
 Say **"Thoughts? Full council"** or **"Run a council review"** to opt into
 independent council review and its compact substance receipt. Council applies to
@@ -76,7 +125,8 @@ Council participants form independent positions, cross-review them, and verify
 the chair's synthesis. The skill uses the host's available delegation tools and
 reasoning models. It reports limited model diversity, partial review, or a
 single-model fallback when applicable. Installing the skill does not add models,
-enable tools, or change application settings.
+enable tools, or change application settings. The Claude Code plugin adds the
+one hook described under Install.
 
 ## Optional managed installation
 
@@ -93,7 +143,8 @@ python3 scripts/install.py --target both
 python3 scripts/install.py --check
 ```
 
-The installer manages only `SKILL.md` at the selected app destinations above,
+The installer covers Codex and Cursor only; for Claude, use the plugin. It
+manages only `SKILL.md` at the selected app destinations above,
 plus the companion rule for Cursor. It does not install documentation or tests
 into the app. Codex-only installation does not create or inspect an unmanaged
 Cursor installation, and vice versa.
@@ -154,6 +205,16 @@ From this source folder, run:
 python3 -m unittest discover -s tests -v
 python3 scripts/build_packages.py --output /tmp/thoughts-release
 ```
+
+The Claude Code plugin lives in [`plugin/`](plugin/), and
+[`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) lists it.
+Plugins cannot read files outside their own folder, so `plugin/` holds its own
+copies of `SKILL.md` and `LICENSE`. After editing either root file, run
+`python3 scripts/sync_plugin.py`; the tests fail if the copies differ. Raise
+`version` in `plugin/.claude-plugin/plugin.json` with every release, because
+installed plugins update only when it changes. Check the plugin with
+`claude plugin validate plugin`. For the Claude plugin directory, submit this
+repository with `plugin` as the plugin path.
 
 Versioned release packages are optional. The basic package contains only
 `SKILL.md`, `README.md`, `LICENSE`, and `thoughts-skill.mdc`; the managed package

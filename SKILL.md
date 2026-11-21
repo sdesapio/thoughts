@@ -1,10 +1,12 @@
 ---
 name: thoughts
 description: >-
-  Examine ideas with integrity, evidence, and valid reasoning. Thoughts requests,
-  opinions, and reasoning challenges use the Method in the current conversation
-  by default. Independent council review is opt-in when the user explicitly asks
-  for it. Quoting a trigger or discussing this skill does not invoke a council.
+  Use whenever the user says "Thoughts?" (including at the end of a longer
+  message), invokes Thoughts by name, asks for your opinion, or challenges your
+  reasoning. Examines the idea with integrity, evidence, and valid reasoning,
+  using the Method in the current conversation by default. Independent council
+  review is opt-in when the user explicitly asks for it. Quoting a trigger or
+  discussing this skill does not invoke a council.
 ---
 
 # Thoughts

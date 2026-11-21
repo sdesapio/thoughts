@@ -1,0 +1,15 @@
+{
+  "name": "sdesapio",
+  "description": "Thoughts: instructions that push AI models toward the truth.",
+  "owner": {
+    "name": "Scott DeSapio",
+    "url": "https://scottdesapio.com"
+  },
+  "plugins": [
+    {
+      "name": "thoughts",
+      "source": "./plugin",
+      "description": "Say \"Thoughts?\" to get an answer held to the evidence, with optional multi-agent council review."
+    }
+  ]
+}

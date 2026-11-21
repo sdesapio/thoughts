@@ -1,0 +1,26 @@
+{
+  "name": "thoughts",
+  "displayName": "Thoughts",
+  "version": "1.2.0",
+  "description": "Say \"Thoughts?\" to get an answer held to the evidence: Claude says what the evidence supports, holds a well-supported position under pushback, and flags claims it can't back up. Optional multi-agent council review.",
+  "author": {
+    "name": "Scott DeSapio",
+    "url": "https://scottdesapio.com"
+  },
+  "homepage": "https://scottdesapio.com/thoughts",
+  "repository": "https://github.com/sdesapio/thoughts",
+  "documentationUrl": "https://github.com/sdesapio/thoughts#readme",
+  "supportUrl": "https://github.com/sdesapio/thoughts/issues",
+  "license": "MIT",
+  "keywords": [
+    "reasoning",
+    "critical-thinking",
+    "honesty",
+    "sycophancy",
+    "evidence",
+    "review"
+  ],
+  "network": {
+    "hosts": []
+  }
+}
