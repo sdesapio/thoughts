@@ -5,9 +5,13 @@ supports, hold a well-supported position under pushback, and flag claims it
 can't back up. It rests on the three laws of thought: identity,
 noncontradiction, and excluded middle.
 
-The story behind it and the published test results, failures included, are in
-[Is your AI lying to you?](https://scottdesapio.com/thoughts). Source, tests,
-and installs for other tools are at
+In tests, Thoughts improved on a one-line prompt for all four models tested: by
+a wide margin on Gemini and Sonnet, and by smaller margins on Opus 4.6 and
+GPT-5.6 Sol. The story behind it is in
+[Is your AI lying to you?](https://scottdesapio.com/thoughts), and the full
+results are in
+[tests/README.md](https://github.com/sdesapio/thoughts/blob/master/tests/README.md).
+Source and installs for other tools are at
 [github.com/sdesapio/thoughts](https://github.com/sdesapio/thoughts).
 
 ## Install

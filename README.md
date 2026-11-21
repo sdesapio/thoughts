@@ -5,9 +5,11 @@ supports, hold a well-supported position under pushback, and flag claims they
 can't back up. They're for anyone who asks an AI questions that matter, not just
 developers.
 
-The story behind them and the test results, failures included, are in
+In tests, Thoughts improved on a one-line prompt for all four models tested: by
+a wide margin on Gemini and Sonnet, and by smaller margins on Opus 4.6 and
+GPT-5.6 Sol. The story behind the instructions and the full results are in
 [Is your AI lying to you?](https://scottdesapio.com/thoughts). Every question,
-answer, and grade is in [tests/](tests/), with a script to rerun it.
+answer, and grade is in [tests/](tests/README.md), with a script to rerun it.
 
 The method rests on Aristotle's work and the three laws of thought: identity,
 noncontradiction, and excluded middle.
