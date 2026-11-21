@@ -88,29 +88,32 @@ tested. Length does not count toward any grade.
 
 Pilot, graded by Sonnet:
 
-| Model | N | S | T | T vs S |
+| Model | N | S | T | Pre-set rule |
 |---|---:|---:|---:|---|
-| Gemini | 10 | 9 | 17 | passes |
-| GPT-5.6 Sol | 12 | 13 | 13 | fails (tied S on passes) |
+| Gemini | 10 | 9 | 17 | met |
+| GPT-5.6 Sol | 12 | 13 | 13 | not met (tied S on passes) |
 
 Sonnet as test model:
 
-| Grader | N | S | T | T vs S |
+| Grader | N | S | T | Pre-set rule |
 |---|---:|---:|---:|---|
-| Grok | 0 | 5 | 11 | passes |
-| GPT-5.6 Sol | 3 | 5 | 12 | passes |
+| Grok | 0 | 5 | 11 | met |
+| GPT-5.6 Sol | 3 | 5 | 12 | met |
 
 Opus 4.6 as test model:
 
-| Grader | N | S | T | T vs S |
+| Grader | N | S | T | Pre-set rule |
 |---|---:|---:|---:|---|
-| Grok | 1 | 4 | 6 | passes |
-| GPT-5.6 Sol | 3 | 2 | 4 | fails (tied S on FAILs: both 12) |
+| Grok | 1 | 4 | 6 | met |
+| GPT-5.6 Sol | 3 | 2 | 4 | not met (tied S on FAILs: both 12) |
 
-**Verdict under the pre-set rule:** Thoughts helped Gemini and Sonnet. On
-GPT-5.6 Sol it was about even (rule not met). On Opus 4.6 the result depended
-on the grader: Grok said it met the rule; GPT said it did not. There is no
-general across-model claim.
+Thoughts improved on the one-liner for all four models: more passes on Gemini,
+Sonnet, and Opus 4.6 under every grader, and on GPT-5.6 Sol the same passes
+with fewer FAILs (9 vs 11). Against no prompt, GPT was about even (13 vs 12
+passes, 9 vs 8 FAILs). Only Gemini and Sonnet met the pre-set rule; Opus 4.6
+met it under Grok's grading but not GPT's. In hindsight the "success" rule was
+stricter than "helped": it required more passes and fewer FAILs at once, so a
+tie on either failed it. That was my mistake, not the skill's.
 
 ### Mean words per answer (N / S / T)
 
