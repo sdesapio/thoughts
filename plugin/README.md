@@ -12,6 +12,9 @@ and installs for other tools are at
 
 ## Install
 
+In the Claude apps (web, desktop, and mobile) and Cowork, add Thoughts from the
+plugin directory. Then say "Thoughts?" or ask Claude to use the Thoughts skill.
+
 In Claude Code:
 
 ```
@@ -22,7 +25,7 @@ In Claude Code:
 
 - **"Thoughts?"** Ask for an assessment of an idea, plan, or argument. Claude
   examines it with the skill's Method in the current conversation.
-- **`/thoughts:thoughts`** invokes the skill directly.
+- **`/thoughts:thoughts`** invokes the skill directly in Claude Code.
 - **"Thoughts? Full council"** or **"Run a council review"** opts into council
   review: three independent subagents form positions, cross-review them, and
   verify the final answer, which ends with a short receipt. Council runs only
