@@ -26,16 +26,8 @@ That one-step form needs Claude Code 2.1.275 or later. On older versions, run
 `/plugin marketplace add sdesapio/thoughts`, then
 `/plugin install thoughts@sdesapio`.
 
-The plugin contains the skill and one small hook. Claude normally decides from a
-skill's description whether to load it, and it can miss a "Thoughts?" at the end
-of a long message. The hook closes that gap: when a message you send contains
-"Thoughts?", it adds a one-line reminder to load the skill. It runs a short
-shell script, [`thoughts-trigger.sh`](plugin/scripts/thoughts-trigger.sh), on
-your machine. The script reads the message, prints the reminder or nothing, and
-does not write files or use the network.
-
-To install the skill without the plugin or the hook, copy `SKILL.md` into
-`~/.claude/skills/thoughts/`:
+The plugin contains only the skill. To install the skill without the plugin,
+copy `SKILL.md` into `~/.claude/skills/thoughts/`:
 
 ```bash
 mkdir -p ~/.claude/skills/thoughts
@@ -43,8 +35,9 @@ curl -fsSL -o ~/.claude/skills/thoughts/SKILL.md \
   https://raw.githubusercontent.com/sdesapio/thoughts/master/SKILL.md
 ```
 
-Installed this way, `/thoughts` always invokes the skill, and a bare "Thoughts?"
-depends on Claude choosing to load it. To make that more reliable, add this line
+Installed this way, `/thoughts` invokes the skill. Either way, Claude decides
+from the skill's description whether a bare "Thoughts?" loads it, and it can
+miss one at the end of a long message. To make that more reliable, add this line
 to `~/.claude/CLAUDE.md`:
 
 ```
@@ -103,8 +96,9 @@ Method alone.
 use the full Method in the current conversation by default. Integrity, evidence,
 and the foundational logical laws apply in every mode.
 
-Whether a bare "Thoughts?" loads the skill depends on the host. The Claude Code
-plugin's hook and the Cursor rule route it for you. Elsewhere the model decides
+Whether a bare "Thoughts?" loads the skill depends on the host. The Cursor rule
+routes it for you, and in Claude Code the `CLAUDE.md` line under Install makes
+it more reliable. Otherwise the model decides
 from the skill's description and can miss it, so invoke the skill by name when
 it matters: `/thoughts:thoughts` with the Claude Code plugin, `/thoughts` with
 the skill copied into `~/.claude/skills/`.
@@ -125,8 +119,7 @@ Council participants form independent positions, cross-review them, and verify
 the chair's synthesis. The skill uses the host's available delegation tools and
 reasoning models. It reports limited model diversity, partial review, or a
 single-model fallback when applicable. Installing the skill does not add models,
-enable tools, or change application settings. The Claude Code plugin adds the
-one hook described under Install.
+enable tools, or change application settings.
 
 ## Optional managed installation
 

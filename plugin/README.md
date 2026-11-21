@@ -31,20 +31,19 @@ In Claude Code:
 Opinion requests and challenges to Claude's reasoning also use the Method.
 Quoting "Thoughts?" or discussing the skill does not start a council.
 
-## What this plugin contains and runs
+Claude decides from the skill's description whether to load it, and it can
+miss a "Thoughts?" at the end of a long message. Use `/thoughts:thoughts` when
+it matters, or add this line to `~/.claude/CLAUDE.md`:
 
-- **`skills/thoughts/SKILL.md`**: the instructions. Plain Markdown, no code.
-- **`hooks/hooks.json` and `scripts/thoughts-trigger.sh`**: a
-  `UserPromptSubmit` hook. Each time you send a message, Claude Code runs the
-  script, which checks whether the message contains "Thoughts?". If it does,
-  the script prints a one-line reminder to load the skill, which Claude Code
-  adds to Claude's context for that turn. Otherwise it prints nothing. Without
-  this, Claude decides from the skill's description whether to load it, and can
-  miss a "Thoughts?" at the end of a long message.
+```
+When I say "Thoughts?", ask for your opinion, or challenge your reasoning, load the thoughts skill before answering.
+```
 
-The script reads the message from standard input and writes to standard output.
-It does not write files, use the network, or store or send anything. The plugin
-has no MCP server, collects no data, and contacts no outside service.
+## What this plugin contains
+
+One skill, `skills/thoughts/SKILL.md`: plain Markdown instructions, no code. The
+plugin has no hooks, scripts, or MCP server. It collects no data and contacts no
+outside service.
 
 ## License
 

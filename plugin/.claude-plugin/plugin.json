@@ -1,7 +1,7 @@
 {
   "name": "thoughts",
   "displayName": "Thoughts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Say \"Thoughts?\" to get an answer held to the evidence: Claude says what the evidence supports, holds a well-supported position under pushback, and flags claims it can't back up. Optional multi-agent council review.",
   "author": {
     "name": "Scott DeSapio",
@@ -19,8 +19,5 @@
     "sycophancy",
     "evidence",
     "review"
-  ],
-  "network": {
-    "hosts": []
-  }
+  ]
 }
