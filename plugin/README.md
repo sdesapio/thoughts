@@ -45,8 +45,19 @@ When I say "Thoughts?", ask for your opinion, or challenge your reasoning, load 
 ## What this plugin contains
 
 One skill, `skills/thoughts/SKILL.md`: plain Markdown instructions, no code. The
-plugin has no hooks, scripts, or MCP server. It collects no data and contacts no
-outside service.
+plugin has no hooks, scripts, or MCP server.
+
+## Privacy
+
+Thoughts collects no data. The plugin is a set of written instructions for
+Claude and contains no code, so it cannot read, store, or send anything on its
+own. It contacts no outside service, and its author receives no information
+about you, your conversations, or your use of it.
+
+When you use Thoughts, your conversation is handled by Claude under Anthropic's
+own terms and privacy policy, as it is without the plugin. If Claude searches
+the web while checking a claim, it does so with its own tools, not the
+plugin's.
 
 ## License
 
